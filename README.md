@@ -1,6 +1,8 @@
 # CausalIntersectionalityDualGradient
 ## Summary
-This repository contains the codes for the paper [Causal Intersectionality and Dual Form of Gradient Descent for Multimodal Analysis: A Case Study on Hateful Memes](https://arxiv.org/abs/2308.11585).
+This repository contains the codes for the paper titled as `Causal Intersectionality and Dual Form of Gradient Descent for Multimodal Analysis: A Case Study on Hateful Memes`.
+- [arXiv](https://arxiv.org/abs/2308.11585)
+- [LREC-COLING 2024 (oral) version](https://aclanthology.org/2024.lrec-main.259/)
 
 # How to Reproduce the Result
 ## Summary
@@ -49,5 +51,24 @@ python blip2/bert_midas.py \
     Title = {Causal Intersectionality and Dual Form of Gradient Descent for Multimodal Analysis: a Case Study on Hateful Memes},
     Year = {2023},
     Eprint = {arXiv:2308.11585},
+}
+@inproceedings{miyanishi-nguyen-2024-causal,
+    title = "Causal Intersectionality and Dual Form of Gradient Descent for Multimodal Analysis: A Case Study on Hateful Memes",
+    author = "Miyanishi, Yosuke  and
+      Nguyen, Minh Le",
+    editor = "Calzolari, Nicoletta  and
+      Kan, Min-Yen  and
+      Hoste, Veronique  and
+      Lenci, Alessandro  and
+      Sakti, Sakriani  and
+      Xue, Nianwen",
+    booktitle = "Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)",
+    month = may,
+    year = "2024",
+    address = "Torino, Italia",
+    publisher = "ELRA and ICCL",
+    url = "https://aclanthology.org/2024.lrec-main.259",
+    pages = "2901--2916",
+    abstract = "Amidst the rapid expansion of Machine Learning (ML) and Large Language Models (LLMs), understanding the semantics within their mechanisms is vital. Causal analyses define semantics, while gradient-based methods are essential to eXplainable AI (XAI), interpreting the model{'}s {`}black box{'}. Integrating these, we investigate how a model{'}s mechanisms reveal its causal effect on evidence-based decision-making. Research indicates intersectionality - the combined impact of an individual{'}s demographics - can be framed as an Average Treatment Effect (ATE). This paper demonstrates that hateful meme detection can be viewed as an ATE estimation using intersectionality principles, and summarized gradient-based attention scores highlight distinct behaviors of three Transformer models. We further reveal that LLM Llama-2 can discern the intersectional aspects of the detection through in-context learning and that the learning process could be explained via meta-gradient, a secondary form of gradient. In conclusion, this work furthers the dialogue on Causality and XAI. Our code is available online (see External Resources section).",
 }
 ```
